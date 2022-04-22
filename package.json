@@ -1,0 +1,18 @@
+{
+  "name": "omnitracs-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "google-spreadsheet": "^3.2.0",
+    "luxon": "^2.3.2",
+    "puppeteer": "^13.5.2"
+  }
+}
