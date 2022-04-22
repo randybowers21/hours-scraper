@@ -2,9 +2,7 @@ import "dotenv/config";
 import { GoogleSpreadsheet } from "google-spreadsheet";
 import { DateTime } from "luxon";
 
-const doc = new GoogleSpreadsheet(
-  "13qXFBT9tTrdGwRPE00etiyyYqz9qJYRl2z694xRdn9k"
-);
+const doc = new GoogleSpreadsheet(process.env.GOOGLE_SHEET_KEY);
 
 const ddDocumentType = "HTML";
 
